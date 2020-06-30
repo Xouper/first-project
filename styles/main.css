@@ -1,0 +1,59 @@
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+.bg{
+  background: url(../images/cover.jpg) no-repeat center;
+  background-size: cover;
+  position: absolute;
+  z-index: 0;
+  right: -80px;
+  left: -40px;
+  top: -40px;
+  bottom: -100px;
+  filter: blur(20px);
+}
+.box{
+  width: 300px;
+  background: white;
+  border-radius: 5px;
+  position:relative;
+  z-index: 1;
+  box-shadow: 0 0 20px black;
+}
+.img{
+  width: 300px;
+border-radius: 5px 5px 0 0;
+}
+.box-content{
+text-align: center;
+padding: 30px;
+}
+.icons{
+  width: 35px;
+  height: 35px;
+}
+.icons:hover{
+  box-shadow:  0 0 10px black;
+}
+.photo{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: -50 auto;
+  border-radius: 100%;
+  border: 3px solid white;
+  position: relative;
+}
+.photo img{
+max-width: 100%;
+margin-bottom: -30px;
+}
+a{
+  margin-right: 20px;
+}
