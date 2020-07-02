@@ -23,48 +23,16 @@ body{
  z-index: 1;
  box-shadow: 0 0 20px black;
 }
-.img{
- width: 300px;
- border-radius: 5px 5px 0 0;
-}
 .box-content{
  text-align: center;
- padding: 25px;
-}
-.icons{
- width: 35px;
- height: 35px;
-}
-.icons:hover{
- box-shadow: 0 0 10px 2px black;
-}
-.photo{
- width: 100px;
- height: 100px;
- display: flex;
- justify-content: center;
- align-items: center;
- overflow: hidden;
- margin: -50 auto;
- border-radius: 100%;
- border: 3px solid white;
- position: relative;
-}
-.photo img{
- max-width: 100%;
- margin-bottom: -30px;
-}
-a{
- margin-right: 20px;
+ padding: 30px;
 }
 .arrow{
  width: 30px;
- margin-right: -25px;
 }
 .arrow:hover{
  box-shadow: 0 0 10px 2px black;
 }
 p{
- margin-top: -20px;
- font-size: 18px;
+ font-size: 20px;
 }

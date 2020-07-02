@@ -2,22 +2,36 @@
   <head>
     <meta charset="utf-8">
     <title>Home Page</title>
-    <link rel="stylesheet" href="Project/styles/main.css">
+    <link rel="stylesheet" href="../Project/styles/main.css">
   </head>
   <body>
     <div class="bg"></div>
-<div class="box">
-  <img src="Project\images\cover.jpg" class="img">
-<div class="photo">
-  <img src="Project/images/photo.jpg">
-</div>
-  <div class="box-content">
-    <h1>Alexey Ustinov</h1>
-    <p>Microsoft Sales and Product Development</p>
-<a href="https://vk.com/idustinov28"><img src="Project/images/vk.png" class="icons"></a>
-<a href="https://www.youtube.com/channel/UCP5g7iL41w9KnwMsyHzKTpA"><img src="Project/images/youtube.png" class="icons"></a>
-<a href="https://www.instagram.com/car_i_korol/?hl=ru/car_i_korol"><img src="Project/images/instagram.png" class="icons"></a>
-</div>
-</div>
+    <div class="box">
+        <img src="images/cover.jpg" class="img">
+      <div class="photo">
+        <img src="images/photo.jpg">
+      </div>
+      <div class="box-content">
+        <h1>Alexey Ustinov</h1>
+        <p>9th grade student of a Moscow gymnasium, novice programmer</p>
+        <a href="https://vk.com/idustinov28"><img src="images/vk.png" class="icons"></a>
+        <a href="https://www.youtube.com/channel/UCP5g7iL41w9KnwMsyHzKTpA"><img src="images/youtube.png" class="icons"></a>
+        <a href="https://www.instagram.com/car_i_korol/?hl=ru/car_i_korol"><img src="images/instagram.png" class="icons"></a>
+        <a href="C:\Users\User\Documents\Atom\Project\second.html"><img src="images/pointer.png" class="arrow"></a>
+        <button onclick="changeAvatar()">New Avatar</button>
+      </div>
+    </div>
+    <script>
+      function changeAvatar(){
+      var element = document.querySelector(".photo img");
+      var defaultImage="images/photo.jpg";
+      var newImage="images/main.jpg";
+      if (element.getAttribute("src") === defaultImage){
+      element.src=newImage;
+}     else {
+      element.src=defaultImage;
+  }
+}
+    </script>
   </body>
 </html>
